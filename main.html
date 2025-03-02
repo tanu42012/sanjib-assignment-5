@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-6">
+      <!-- navbar -->
+      <header>
+        <div class="navbar bg-gray-100 shadow-sm">
+            <div class="flex-1">
+                <div class="flex">
+                    <img class="" src="./assets/logo.png" alt="" srcset="">
+              <a class="btn btn-ghost text-xl">Dav<span class="text-bold text-2xl">Board</span></a>
+                </div>
+            </div>
+            <div class="flex-none">
+                <button onclick="history.back()" id="btn-back" class="border-12 rounded-md bg-blue-600 text-white text-bold">Back To Desk</button>
+            </div>
+          </div>
+
+    </header>
+    <section class="items-center mx-auto mt-6">
+        <h1 class="font-bold text-2xl">Blog</h1>
+    </section>
+   
+
+
+
+
+
+    <!-- question 1 -->
+
+    <section class="bg-green-200 mt-6">
+        <h1 class="font-bold text-2xl">Question-1: What are the different ways to select an element in the DOM?</h1>
+    <h2 class=" text-2xl">1. By ID</h2>
+    <p class="text-xl">
+        const element = document.getElementById("myId");
+    </p>
+    <h2 class=" text-2xl">2. By ClassName</h2>
+    <p class="text-xl">
+        const elements = document.getElementsByClassName("myClass");
+    </p>
+    <h2 class=" text-2xl">3. By Tag Name</h2>
+    <p class="text-xl">
+        const elements = document.getElementsByTagName("div");
+    </p>
+    <h2 class=" text-2xl">4. By CSS Selector (Single Element)</h2>
+    <p class="text-xl">
+        const element = document.querySelector(".myClass");
+    </p>
+    <h2 class=" text-2xl">5. By CSS Selector (Multiple Elements)</h2>
+    <p class="text-xl">
+        const elements = document.querySelectorAll(".myClass");
+    </p>
+    </section>
+    <!-- question 2 -->
+    <section class="bg-green-200 mt-6">
+        <h1 class="font-bold text-2xl">Question-2:  What is the difference between innerHTML, innerText, and textContent ?</h1>
+        <h2 class=" text-2xl">1.InnerHtml</h2>
+        <p class="text-xl">
+          To get  HTML content inside an element.
+            
+        </p>
+        <h2 class=" text-2xl">2.innerText</h2>
+        <p class="text-xl">
+          To get  the visible text inside an element.
+            
+        </p>
+        <h2 class=" text-2xl">3.textContent</h2>
+        <p class="text-xl">
+          To get  all text content, including hidden elements.
+
+            
+        </p>
+
+
+    </section>
+    <!-- question 3 -->
+    <section class="bg-green-200 mt-6">
+        <h1 class="font-bold text-2xl">Question-3:  What is event delegation in the DOM?</h1>
+        <p class="text-xl">
+            Event Delegation is a technique in JavaScript where instead of adding event listeners to multiple child elements, you attach a single event listener to a parent element and handle events for its child elements using event bubbling.
+  
+              
+          </p>
+        
+    </section>
+    <!-- question 4 -->
+    <section class="bg-green-200 mt-6">
+        <h1 class="font-bold text-2xl">Question-4:  What is event bubbling in the DOM?</h1>
+        <p class="text-xl">
+            Event Bubbling is a mechanism in the DOM where an event triggered on a child element propagates (bubbles up) to its parent elements until it reaches the root
+        </p>
+
+    </section>
+    <!-- question 5  -->
+    <section class="bg-green-200 mt-6">
+        <h1 class="font-bold text-2xl">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+        <h2 class=" font-bold text-2xl">1. Creating Elements</h2>
+    <p class="text-xl">
+        To create a new element, use the document.createElement() method.
+    </p>
+    <p class="text-xl">
+        const newElement = document.createElement("div"); <br>
+         newElement.textContent = "Hello, I am a new div!";
+    </p>
+
+    <h2 class=" font-bold text-2xl">2. Adding Elements to the DOM</h2>
+    <p class="text-xl">
+        Once an element is created, you can insert it into the DOM using various methods. <br>
+        appendChild()
+    </p>
+    <p class="text-xl">
+        document.body.appendChild(newElement);
+    </p>
+    <h2 class=" font-bold text-2xl">3. Removing Elements</h2>
+    <p class="text-xl">
+        1.remove() <br>
+        newElement.remove();
+    </p>
+    <p class="text-xl">
+        2.sremoveChild() <br>
+        const parent = document.getElementById("parent");<br>
+        const child = document.getElementById("child"); <br>
+        parent.removeChild(child);
+    </p>
+
+
+
+    </section>
+    
+</body>
+</html>
