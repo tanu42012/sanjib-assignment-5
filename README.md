@@ -6,7 +6,7 @@ A responsive and interactive task dashboard built with **HTML**, **Tailwind CSS*
 
 ## 🔗 Live Demo
 
-🌐 [View Live Project](https://your-live-link.com)
+🌐 [View Live Project](https://tanu42012.github.io/sanjib-assignment-5/)
 
 > Replace with your actual deployed URL (e.g., from Netlify, GitHub Pages, or Vercel).
 
