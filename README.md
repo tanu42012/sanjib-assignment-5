@@ -1,22 +1,37 @@
-## **📅 Deadline For 60 marks**: 2nd March , 2025 ( 11:59 pm ⏱️)
+# 📋 Assignment 5 – Task Management Dashboard
 
-## **📅 Deadline For 50 marks**: 3rd March , 2025 ( 11:59 pm ⏱️)
-
-**📅 Deadline For 30 marks**: Any time after 3rd March , 2025.
----
-🏆 Requirements
----
-Follow the given  video strictly to meet all the requirements and Challenges.
+A responsive and interactive task dashboard built with **HTML**, **Tailwind CSS**, **DaisyUI**, and JavaScript. The dashboard simulates task tracking, displays project cards, and includes activity logging with dynamic UI behavior.
 
 ---
-Required Question to Answer at Blog.html
+
+## 🔗 Live Demo
+
+🌐 [View Live Project](https://your-live-link.com)
+
+> Replace with your actual deployed URL (e.g., from Netlify, GitHub Pages, or Vercel).
+
 ---
-- Question-1: What are the different ways to select an element in the DOM?
 
-- Question-2: What is the difference between innerHTML, innerText, and textContent ?
+## 🧰 Tech Stack
 
-- Question-3: What is event delegation in the DOM?
+- **HTML5**
+- **Tailwind CSS** (via CDN)
+- **DaisyUI** (Tailwind UI components)
+- **JavaScript** (with multiple modular scripts)
 
-- Question-4: What is event bubbling in the DOM?
+---
 
-- Question-5: How do you create, add, and remove elements using JavaScript?
+## 📦 Features
+
+- 🧩 Responsive navigation bar with logo and theme toggle  
+- 📊 Dashboard with dynamic cards (tasks, insights, date display)  
+- ✅ Interactive task list with completion buttons  
+- 📅 Deadline and task metadata using badges  
+- 🕓 Real-time date and event handling  
+- 📜 Activity log section with clear history functionality  
+- 🎨 Theme customization and dynamic styles
+
+---
+
+## 📂 Folder Structure
+
